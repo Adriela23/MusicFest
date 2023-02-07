@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="es"> 
+    <head>
+        <title>Pago</title> 
+        <meta charset="UTF-8"> 
+        <meta name="descripcion" content="Esta sitio contiene estiquetas del tipo HTML5 y algunos links CSS3">
+        <meta name="keywords" content="html5, css3, web, musicFest">
+        
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                
+            </nav>
+        </header>
+        <div>
+            <section>
+                <article>
+                    <header>Por favor ingrese los datos para realizar su pago</header>
+                    <form name="info" action="registro.jsp" method="post"> 
+                        <br>
+                        <br>
+                        <label>Nombre</label>
+                        <input type="text"
+                               placeholder="Su nombre..."
+                               name="nombre"
+                               value=""
+                               size="35" />
+                        <br>
+                        <br>
+                        <label>Primer apellido</label>
+                        <input type="text"
+                               placeholder="Apellido 1..."
+                               name="apellido"
+                               value=""
+                               size="35" />
+                        <br>
+                        <br>
+                        <label>Segundo apellido</label>
+                        <input type="text"
+                               placeholder="Apellido 2..."
+                               name="apellido"
+                               value=""
+                               size="35" />
+                        <br>
+                        <br>
+                        <label>Pais</label>
+                        <select name="pais">
+                            <option>Mexico</option>
+                            <option>Argentina</option>
+                            <option>Costa Rica</option>
+                            <option>Salvador</option>
+                            <option>Chile</option>
+                            <option>Peru</option>
+                        </select>
+                        <label>Codigo postal</label>
+                        <input type="text"
+                               name="codPostal" 
+                               value="" 
+                               size="35" />
+                        <br>
+                        <br>
+                        <label>Direccion</label>
+                        <textarea name="direccion" rows="4" cols="70">
+San Jose, Costa Rica, de la panaderia Musmanni 100 mts al este, contiguo a La Nacion.
+                        </textarea>
+                        <br>
+                        <br>
+                        <label>Indique el metodo de pago: </label>
+                        Visa<input type="checkbox" name="visa" value="visa" />
+                        MasterCard<input type="checkbox" name="mastercard" value="mastercard" />
+                        American Express<input type="checkbox" name="americanExpress" value="americanExpress" />
+                        <br>
+                        <br>
+                        <label>Numero de tarjeta</label>
+                        <input type="text"
+                               name="numTarjeta" 
+                               value="" 
+                               size="35" />
+                        <label>Codigo seguridad</label>
+                        <input type="text"
+                               name="codSeguridad" 
+                               value="" 
+                               size="35" />
+                        <br>
+                        <br>
+                        <label>Fecha de expiracion</label>
+                        <select name="expiracion">
+                            <option>01/2024</option>
+                            <option>02/2024</option>
+                            <option>03/2024</option>
+                            <option>04/2024</option>
+                            <option>05/2024</option>
+                            <option>06/2024</option>
+                            <option>07/2024</option>
+                            <option>08/2024</option>
+                            <option>09/2024</option>
+                            <option>10/2024</option>
+                            <option>11/2024</option>
+                            <option>12/2024</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="terms" value="terms" />
+                        <label>Estoy de acuerdo con los terminos y condiciones</label>
+                        <br>
+                        <br>
+                        <input type="submit" value="Comprar" />
+                        <br>
+                        <br>
+                    </form>
+                </article>
+            </section>
+        </div>
+        
+        <footer> 
+            Derechos reservados MusicFest&COPY; 2023 <address> San Pedro, Costa Rica </address>
+        </footer>
+    </body>
+</html>
